@@ -1,4 +1,4 @@
-# instagram-link-extractor
+# Instagram-link-extractor
 
 This repository contains two JavaScript scripts to extract post and reel links from Instagram collection pages.
 
