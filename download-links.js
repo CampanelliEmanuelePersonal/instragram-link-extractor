@@ -18,7 +18,7 @@
     });
 
     // 4. Creazione file
-    const blob = new Blob([links.join('\n')], { type: 'text/plain' });
+    const blob = new Blob([links.join('\n') + '\n'], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
 
     const a = document.createElement('a');
